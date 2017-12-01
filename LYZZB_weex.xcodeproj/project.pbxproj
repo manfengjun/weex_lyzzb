@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AB5894BF4094E62078D4A43 /* libPods-LYZZB_weex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4922C23C6FFF1FF43EE560B /* libPods-LYZZB_weex.a */; };
+		BF5143CF1FCE421700E02632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5143CE1FCE421700E02632 /* AppDelegate.swift */; };
+		BF5143D61FCE432100E02632 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5143D51FCE432100E02632 /* DemoViewController.m */; };
+		BF5143DA1FCEAAE700E02632 /* lyzzb in Resources */ = {isa = PBXBuildFile; fileRef = BF5143D91FCEAAE700E02632 /* lyzzb */; };
+		BFAB22EB1FCD0F8F00155654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB22EA1FCD0F8F00155654 /* ViewController.swift */; };
+		BFAB22EE1FCD0F8F00155654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB22EC1FCD0F8F00155654 /* Main.storyboard */; };
+		BFAB22F01FCD0F8F00155654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAB22EF1FCD0F8F00155654 /* Assets.xcassets */; };
+		BFAB22F31FCD0F8F00155654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB22F11FCD0F8F00155654 /* LaunchScreen.storyboard */; };
+		BFAB22FE1FCD0F9000155654 /* LYZZB_weexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB22FD1FCD0F9000155654 /* LYZZB_weexTests.swift */; };
+		BFAB23091FCD0F9000155654 /* LYZZB_weexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB23081FCD0F9000155654 /* LYZZB_weexUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFAB22FA1FCD0F8F00155654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAB22DD1FCD0F8F00155654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAB22E41FCD0F8F00155654;
+			remoteInfo = LYZZB_weex;
+		};
+		BFAB23051FCD0F9000155654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAB22DD1FCD0F8F00155654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAB22E41FCD0F8F00155654;
+			remoteInfo = LYZZB_weex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144BB0E4F9872E368F29B6A0 /* Pods-LYZZB_weex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZZB_weex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYZZB_weex/Pods-LYZZB_weex.debug.xcconfig"; sourceTree = "<group>"; };
+		4F81F43733998464BB477045 /* Pods-LYZZB_weex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZZB_weex.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYZZB_weex/Pods-LYZZB_weex.release.xcconfig"; sourceTree = "<group>"; };
+		BF5143CE1FCE421700E02632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF5143D01FCE423B00E02632 /* LYZZB_weex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYZZB_weex-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF5143D41FCE432100E02632 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		BF5143D51FCE432100E02632 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		BF5143D91FCEAAE700E02632 /* lyzzb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lyzzb; sourceTree = "<group>"; };
+		BFAB22E51FCD0F8F00155654 /* LYZZB_weex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYZZB_weex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAB22EA1FCD0F8F00155654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFAB22ED1FCD0F8F00155654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFAB22EF1FCD0F8F00155654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFAB22F21FCD0F8F00155654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFAB22F41FCD0F8F00155654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAB22F91FCD0F8F00155654 /* LYZZB_weexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZZB_weexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAB22FD1FCD0F9000155654 /* LYZZB_weexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZZB_weexTests.swift; sourceTree = "<group>"; };
+		BFAB22FF1FCD0F9000155654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAB23041FCD0F9000155654 /* LYZZB_weexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZZB_weexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAB23081FCD0F9000155654 /* LYZZB_weexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZZB_weexUITests.swift; sourceTree = "<group>"; };
+		BFAB230A1FCD0F9000155654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4922C23C6FFF1FF43EE560B /* libPods-LYZZB_weex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYZZB_weex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFAB22E21FCD0F8F00155654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB5894BF4094E62078D4A43 /* libPods-LYZZB_weex.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAB22F61FCD0F8F00155654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAB23011FCD0F9000155654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72F3A4C3E0598E57C705FD4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4922C23C6FFF1FF43EE560B /* libPods-LYZZB_weex.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5143C41FCE41C600E02632 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BF5143C51FCE41C600E02632 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BF5143C61FCE41C600E02632 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BF5143C71FCE41C600E02632 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		BF5143C81FCE41C700E02632 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		BF5143C91FCE41C700E02632 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BF5143CE1FCE421700E02632 /* AppDelegate.swift */,
+				BF5143D41FCE432100E02632 /* DemoViewController.h */,
+				BF5143D51FCE432100E02632 /* DemoViewController.m */,
+				BF5143D01FCE423B00E02632 /* LYZZB_weex-Bridging-Header.h */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BFAB22DC1FCD0F8F00155654 = {
+			isa = PBXGroup;
+			children = (
+				BF5143D91FCEAAE700E02632 /* lyzzb */,
+				BF5143C91FCE41C700E02632 /* AppDelegate */,
+				BF5143C51FCE41C600E02632 /* Category */,
+				BF5143C61FCE41C600E02632 /* Resource */,
+				BF5143C71FCE41C600E02632 /* Section */,
+				BF5143C41FCE41C600E02632 /* Util */,
+				BF5143C81FCE41C700E02632 /* Vender */,
+				BFAB22E71FCD0F8F00155654 /* LYZZB_weex */,
+				BFAB22FC1FCD0F9000155654 /* LYZZB_weexTests */,
+				BFAB23071FCD0F9000155654 /* LYZZB_weexUITests */,
+				BFAB22E61FCD0F8F00155654 /* Products */,
+				D214895AA1FE72B8675D7A3B /* Pods */,
+				72F3A4C3E0598E57C705FD4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFAB22E61FCD0F8F00155654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB22E51FCD0F8F00155654 /* LYZZB_weex.app */,
+				BFAB22F91FCD0F8F00155654 /* LYZZB_weexTests.xctest */,
+				BFAB23041FCD0F9000155654 /* LYZZB_weexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAB22E71FCD0F8F00155654 /* LYZZB_weex */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB22EA1FCD0F8F00155654 /* ViewController.swift */,
+				BFAB22EC1FCD0F8F00155654 /* Main.storyboard */,
+				BFAB22EF1FCD0F8F00155654 /* Assets.xcassets */,
+				BFAB22F11FCD0F8F00155654 /* LaunchScreen.storyboard */,
+				BFAB22F41FCD0F8F00155654 /* Info.plist */,
+			);
+			path = LYZZB_weex;
+			sourceTree = "<group>";
+		};
+		BFAB22FC1FCD0F9000155654 /* LYZZB_weexTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB22FD1FCD0F9000155654 /* LYZZB_weexTests.swift */,
+				BFAB22FF1FCD0F9000155654 /* Info.plist */,
+			);
+			path = LYZZB_weexTests;
+			sourceTree = "<group>";
+		};
+		BFAB23071FCD0F9000155654 /* LYZZB_weexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB23081FCD0F9000155654 /* LYZZB_weexUITests.swift */,
+				BFAB230A1FCD0F9000155654 /* Info.plist */,
+			);
+			path = LYZZB_weexUITests;
+			sourceTree = "<group>";
+		};
+		D214895AA1FE72B8675D7A3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				144BB0E4F9872E368F29B6A0 /* Pods-LYZZB_weex.debug.xcconfig */,
+				4F81F43733998464BB477045 /* Pods-LYZZB_weex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFAB22E41FCD0F8F00155654 /* LYZZB_weex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAB230D1FCD0F9000155654 /* Build configuration list for PBXNativeTarget "LYZZB_weex" */;
+			buildPhases = (
+				A5F4400E670DFE9E907E0656 /* [CP] Check Pods Manifest.lock */,
+				BFAB22E11FCD0F8F00155654 /* Sources */,
+				BFAB22E21FCD0F8F00155654 /* Frameworks */,
+				BFAB22E31FCD0F8F00155654 /* Resources */,
+				615D2313BFAAE36382CCA385 /* [CP] Embed Pods Frameworks */,
+				B61D7709B584D995E067BC02 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYZZB_weex;
+			productName = LYZZB_weex;
+			productReference = BFAB22E51FCD0F8F00155654 /* LYZZB_weex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFAB22F81FCD0F8F00155654 /* LYZZB_weexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAB23101FCD0F9000155654 /* Build configuration list for PBXNativeTarget "LYZZB_weexTests" */;
+			buildPhases = (
+				BFAB22F51FCD0F8F00155654 /* Sources */,
+				BFAB22F61FCD0F8F00155654 /* Frameworks */,
+				BFAB22F71FCD0F8F00155654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAB22FB1FCD0F8F00155654 /* PBXTargetDependency */,
+			);
+			name = LYZZB_weexTests;
+			productName = LYZZB_weexTests;
+			productReference = BFAB22F91FCD0F8F00155654 /* LYZZB_weexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFAB23031FCD0F9000155654 /* LYZZB_weexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAB23131FCD0F9000155654 /* Build configuration list for PBXNativeTarget "LYZZB_weexUITests" */;
+			buildPhases = (
+				BFAB23001FCD0F9000155654 /* Sources */,
+				BFAB23011FCD0F9000155654 /* Frameworks */,
+				BFAB23021FCD0F9000155654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAB23061FCD0F9000155654 /* PBXTargetDependency */,
+			);
+			name = LYZZB_weexUITests;
+			productName = LYZZB_weexUITests;
+			productReference = BFAB23041FCD0F9000155654 /* LYZZB_weexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFAB22DD1FCD0F8F00155654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = JUN;
+				TargetAttributes = {
+					BFAB22E41FCD0F8F00155654 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					BFAB22F81FCD0F8F00155654 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFAB22E41FCD0F8F00155654;
+					};
+					BFAB23031FCD0F9000155654 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFAB22E41FCD0F8F00155654;
+					};
+				};
+			};
+			buildConfigurationList = BFAB22E01FCD0F8F00155654 /* Build configuration list for PBXProject "LYZZB_weex" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFAB22DC1FCD0F8F00155654;
+			productRefGroup = BFAB22E61FCD0F8F00155654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFAB22E41FCD0F8F00155654 /* LYZZB_weex */,
+				BFAB22F81FCD0F8F00155654 /* LYZZB_weexTests */,
+				BFAB23031FCD0F9000155654 /* LYZZB_weexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFAB22E31FCD0F8F00155654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5143DA1FCEAAE700E02632 /* lyzzb in Resources */,
+				BFAB22F31FCD0F8F00155654 /* LaunchScreen.storyboard in Resources */,
+				BFAB22F01FCD0F8F00155654 /* Assets.xcassets in Resources */,
+				BFAB22EE1FCD0F8F00155654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAB22F71FCD0F8F00155654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAB23021FCD0F9000155654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		615D2313BFAAE36382CCA385 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYZZB_weex/Pods-LYZZB_weex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F4400E670DFE9E907E0656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B61D7709B584D995E067BC02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYZZB_weex/Pods-LYZZB_weex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFAB22E11FCD0F8F00155654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5143D61FCE432100E02632 /* DemoViewController.m in Sources */,
+				BF5143CF1FCE421700E02632 /* AppDelegate.swift in Sources */,
+				BFAB22EB1FCD0F8F00155654 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAB22F51FCD0F8F00155654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAB22FE1FCD0F9000155654 /* LYZZB_weexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAB23001FCD0F9000155654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAB23091FCD0F9000155654 /* LYZZB_weexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFAB22FB1FCD0F8F00155654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAB22E41FCD0F8F00155654 /* LYZZB_weex */;
+			targetProxy = BFAB22FA1FCD0F8F00155654 /* PBXContainerItemProxy */;
+		};
+		BFAB23061FCD0F9000155654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAB22E41FCD0F8F00155654 /* LYZZB_weex */;
+			targetProxy = BFAB23051FCD0F9000155654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFAB22EC1FCD0F8F00155654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAB22ED1FCD0F8F00155654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFAB22F11FCD0F8F00155654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAB22F21FCD0F8F00155654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFAB230B1FCD0F9000155654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFAB230C1FCD0F9000155654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFAB230E1FCD0F9000155654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144BB0E4F9872E368F29B6A0 /* Pods-LYZZB_weex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYZZB_weex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JUN.LYZZB-weex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppDelegate/LYZZB_weex-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFAB230F1FCD0F9000155654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F81F43733998464BB477045 /* Pods-LYZZB_weex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYZZB_weex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JUN.LYZZB-weex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppDelegate/LYZZB_weex-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFAB23111FCD0F9000155654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYZZB_weexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JUN.LYZZB-weexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYZZB_weex.app/LYZZB_weex";
+			};
+			name = Debug;
+		};
+		BFAB23121FCD0F9000155654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYZZB_weexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JUN.LYZZB-weexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYZZB_weex.app/LYZZB_weex";
+			};
+			name = Release;
+		};
+		BFAB23141FCD0F9000155654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYZZB_weexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JUN.LYZZB-weexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYZZB_weex;
+			};
+			name = Debug;
+		};
+		BFAB23151FCD0F9000155654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYZZB_weexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JUN.LYZZB-weexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYZZB_weex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFAB22E01FCD0F8F00155654 /* Build configuration list for PBXProject "LYZZB_weex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAB230B1FCD0F9000155654 /* Debug */,
+				BFAB230C1FCD0F9000155654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAB230D1FCD0F9000155654 /* Build configuration list for PBXNativeTarget "LYZZB_weex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAB230E1FCD0F9000155654 /* Debug */,
+				BFAB230F1FCD0F9000155654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAB23101FCD0F9000155654 /* Build configuration list for PBXNativeTarget "LYZZB_weexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAB23111FCD0F9000155654 /* Debug */,
+				BFAB23121FCD0F9000155654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAB23131FCD0F9000155654 /* Build configuration list for PBXNativeTarget "LYZZB_weexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAB23141FCD0F9000155654 /* Debug */,
+				BFAB23151FCD0F9000155654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFAB22DD1FCD0F8F00155654 /* Project object */;
+}
