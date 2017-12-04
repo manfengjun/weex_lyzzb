@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6AB5894BF4094E62078D4A43 /* libPods-LYZZB_weex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4922C23C6FFF1FF43EE560B /* libPods-LYZZB_weex.a */; };
+		BF03A0691FD53F4B003F427B /* FJWebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A0681FD53F4B003F427B /* FJWebViewModel.swift */; };
+		BF03A06B1FD54752003F427B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A06A1FD54752003F427B /* Common.swift */; };
+		BF03A06D1FD547A0003F427B /* FJColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A06C1FD547A0003F427B /* FJColor+Extension.swift */; };
 		BF5143CF1FCE421700E02632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5143CE1FCE421700E02632 /* AppDelegate.swift */; };
 		BF5143D61FCE432100E02632 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5143D51FCE432100E02632 /* DemoViewController.m */; };
 		BF5143DA1FCEAAE700E02632 /* lyzzb in Resources */ = {isa = PBXBuildFile; fileRef = BF5143D91FCEAAE700E02632 /* lyzzb */; };
+		BF9A08A71FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9A08A61FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m */; };
 		BFAB22EB1FCD0F8F00155654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB22EA1FCD0F8F00155654 /* ViewController.swift */; };
 		BFAB22EE1FCD0F8F00155654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB22EC1FCD0F8F00155654 /* Main.storyboard */; };
 		BFAB22F01FCD0F8F00155654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAB22EF1FCD0F8F00155654 /* Assets.xcassets */; };
@@ -39,11 +43,16 @@
 /* Begin PBXFileReference section */
 		144BB0E4F9872E368F29B6A0 /* Pods-LYZZB_weex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZZB_weex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYZZB_weex/Pods-LYZZB_weex.debug.xcconfig"; sourceTree = "<group>"; };
 		4F81F43733998464BB477045 /* Pods-LYZZB_weex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZZB_weex.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYZZB_weex/Pods-LYZZB_weex.release.xcconfig"; sourceTree = "<group>"; };
+		BF03A0681FD53F4B003F427B /* FJWebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJWebViewModel.swift; sourceTree = "<group>"; };
+		BF03A06A1FD54752003F427B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		BF03A06C1FD547A0003F427B /* FJColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FJColor+Extension.swift"; sourceTree = "<group>"; };
 		BF5143CE1FCE421700E02632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5143D01FCE423B00E02632 /* LYZZB_weex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYZZB_weex-Bridging-Header.h"; sourceTree = "<group>"; };
 		BF5143D41FCE432100E02632 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		BF5143D51FCE432100E02632 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		BF5143D91FCEAAE700E02632 /* lyzzb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lyzzb; sourceTree = "<group>"; };
+		BF9A08A51FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		BF9A08A61FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
 		BFAB22E51FCD0F8F00155654 /* LYZZB_weex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYZZB_weex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB22EA1FCD0F8F00155654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFAB22ED1FCD0F8F00155654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -93,9 +102,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF03A0641FD53F01003F427B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF03A0651FD53F0C003F427B /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BF03A0661FD53F11003F427B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BF03A0671FD53F23003F427B /* WebViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF03A0681FD53F4B003F427B /* FJWebViewModel.swift */,
+			);
+			path = WebViewModel;
+			sourceTree = "<group>";
+		};
 		BF5143C41FCE41C600E02632 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				BF03A0671FD53F23003F427B /* WebViewModel */,
+				BF9A08A21FD4E9A00007AD5A /* ImageHandle */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -103,6 +143,7 @@
 		BF5143C51FCE41C600E02632 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BF03A06C1FD547A0003F427B /* FJColor+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -117,6 +158,9 @@
 		BF5143C71FCE41C600E02632 /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				BF03A0661FD53F11003F427B /* Main */,
+				BF03A0651FD53F0C003F427B /* Mine */,
+				BF03A0641FD53F01003F427B /* Home */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -131,12 +175,22 @@
 		BF5143C91FCE41C700E02632 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				BF03A06A1FD54752003F427B /* Common.swift */,
 				BF5143CE1FCE421700E02632 /* AppDelegate.swift */,
 				BF5143D41FCE432100E02632 /* DemoViewController.h */,
 				BF5143D51FCE432100E02632 /* DemoViewController.m */,
 				BF5143D01FCE423B00E02632 /* LYZZB_weex-Bridging-Header.h */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BF9A08A21FD4E9A00007AD5A /* ImageHandle */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A08A51FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.h */,
+				BF9A08A61FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m */,
+			);
+			path = ImageHandle;
 			sourceTree = "<group>";
 		};
 		BFAB22DC1FCD0F8F00155654 = {
@@ -279,7 +333,7 @@
 					BFAB22E41FCD0F8F00155654 = {
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 0910;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					BFAB22F81FCD0F8F00155654 = {
 						CreatedOnToolsVersion = 9.1;
@@ -394,8 +448,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF03A06D1FD547A0003F427B /* FJColor+Extension.swift in Sources */,
 				BF5143D61FCE432100E02632 /* DemoViewController.m in Sources */,
 				BF5143CF1FCE421700E02632 /* AppDelegate.swift in Sources */,
+				BF03A0691FD53F4B003F427B /* FJWebViewModel.swift in Sources */,
+				BF9A08A71FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m in Sources */,
+				BF03A06B1FD54752003F427B /* Common.swift in Sources */,
 				BFAB22EB1FCD0F8F00155654 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,11 +622,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LYZZB_weex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JUN.LYZZB-weex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppDelegate/LYZZB_weex-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -582,11 +642,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LYZZB_weex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JUN.LYZZB-weex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "AppDelegate/LYZZB_weex-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

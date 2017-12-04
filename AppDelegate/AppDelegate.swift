@@ -26,7 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         WXSDKEngine.initSDKEnvironment()
         
         //注册自定义组件和模型，可选
-        
+    
+        WXSDKEngine.registerHandler(WXImgLoaderDefaultImpl(),with:NSProtocolFromString("WXImgLoaderProtocol"))
         //注册协议的实现，可选
        
         //设置日志的级别

@@ -4,4 +4,8 @@
 //weex库
 #import <WeexSDK/WeexSDK.h>
 #import <WeexSDK/WXSDKInstance.h>
+#import "WXImgLoaderProtocol.h"
+
+//自定义
+#import "WXImgLoaderDefaultImpl.h"
 
