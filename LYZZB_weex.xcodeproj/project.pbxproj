@@ -11,6 +11,9 @@
 		BF03A0691FD53F4B003F427B /* FJWebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A0681FD53F4B003F427B /* FJWebViewModel.swift */; };
 		BF03A06B1FD54752003F427B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A06A1FD54752003F427B /* Common.swift */; };
 		BF03A06D1FD547A0003F427B /* FJColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A06C1FD547A0003F427B /* FJColor+Extension.swift */; };
+		BF03A06F1FD54CAD003F427B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A06E1FD54CAD003F427B /* HomeViewController.swift */; };
+		BF03A0711FD54EA4003F427B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A0701FD54EA4003F427B /* BaseViewController.swift */; };
+		BF03A0731FD54EC6003F427B /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A0721FD54EC6003F427B /* BaseNavViewController.swift */; };
 		BF5143CF1FCE421700E02632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5143CE1FCE421700E02632 /* AppDelegate.swift */; };
 		BF5143D61FCE432100E02632 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5143D51FCE432100E02632 /* DemoViewController.m */; };
 		BF5143DA1FCEAAE700E02632 /* lyzzb in Resources */ = {isa = PBXBuildFile; fileRef = BF5143D91FCEAAE700E02632 /* lyzzb */; };
@@ -46,6 +49,9 @@
 		BF03A0681FD53F4B003F427B /* FJWebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJWebViewModel.swift; sourceTree = "<group>"; };
 		BF03A06A1FD54752003F427B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		BF03A06C1FD547A0003F427B /* FJColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FJColor+Extension.swift"; sourceTree = "<group>"; };
+		BF03A06E1FD54CAD003F427B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BF03A0701FD54EA4003F427B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BF03A0721FD54EC6003F427B /* BaseNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
 		BF5143CE1FCE421700E02632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5143D01FCE423B00E02632 /* LYZZB_weex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYZZB_weex-Bridging-Header.h"; sourceTree = "<group>"; };
 		BF5143D41FCE432100E02632 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
@@ -105,6 +111,7 @@
 		BF03A0641FD53F01003F427B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BF03A06E1FD54CAD003F427B /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -119,6 +126,8 @@
 		BF03A0661FD53F11003F427B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BF03A0701FD54EA4003F427B /* BaseViewController.swift */,
+				BF03A0721FD54EC6003F427B /* BaseNavViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -451,7 +460,10 @@
 				BF03A06D1FD547A0003F427B /* FJColor+Extension.swift in Sources */,
 				BF5143D61FCE432100E02632 /* DemoViewController.m in Sources */,
 				BF5143CF1FCE421700E02632 /* AppDelegate.swift in Sources */,
+				BF03A06F1FD54CAD003F427B /* HomeViewController.swift in Sources */,
 				BF03A0691FD53F4B003F427B /* FJWebViewModel.swift in Sources */,
+				BF03A0731FD54EC6003F427B /* BaseNavViewController.swift in Sources */,
+				BF03A0711FD54EA4003F427B /* BaseViewController.swift in Sources */,
 				BF9A08A71FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m in Sources */,
 				BF03A06B1FD54752003F427B /* Common.swift in Sources */,
 				BFAB22EB1FCD0F8F00155654 /* ViewController.swift in Sources */,
