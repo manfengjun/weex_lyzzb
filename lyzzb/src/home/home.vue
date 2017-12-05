@@ -1,33 +1,31 @@
 <template>
-  <div>
-    <slider class="slider" interval="3000" auto-play="true">
-      <div class="frame" v-for="img in imageList">
-        <image class="image" resize="cover" :src="img.src"></image>
-      </div>
-    </slider>
-  </div>
+  <slider id="slider" interval="3000" auto-play="true">
+    <div id="frame" v-for="img in imageList">
+      <image class="image" resize="cover" :src="img.src" @load="onload"></image>
+    </div>
+  </slider>
 </template>
 <style scoped>
   .image {
-    width: 700px;
-    height: 700px;
+    width: 750px;
+    height: 400px;
   }
-  .slider {
-    margin-top: 25px;
-    margin-left: 25px;
-    width: 700px;
-    height: 700px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #41B883;
+  #slider {
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 400px;
   }
-  .frame {
-    width: 700px;
-    height: 700px;
+  #frame {
+    
+    width: 750px;
+    height: 400px;
     position: relative;
   }
 </style>
 <script>
+  var modal = weex.requireModule('modal')
   export default {
     data () {
       return {
@@ -37,6 +35,16 @@
           { src: 'https://gd3.alicdn.com/bao/uploaded/i3/TB1x6hYLXXXXXazXVXXXXXXXXXX_!!0-item_pic.jpg'}
         ]
       }
+    },
+    methods:{
+        onload:function(e){
+         
+          
+           modal.toast({
+              message: this._parent
+           })
+        }
     }
+    
   }
 </script>

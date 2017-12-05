@@ -63,7 +63,7 @@
         <!--首页-->
         <scene sceneID="MGi-wN-C3V">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bXq-Pz-78g" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bXq-Pz-78g" customClass="BaseNavViewController" customModule="LYZZB_weex" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="首页" image="tabbar_company_gray" selectedImage="tabbar_company" id="yrI-M4-bkb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sSU-eJ-ax5">
@@ -82,7 +82,7 @@
         <!--我的-->
         <scene sceneID="gNa-mm-i5l">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nOC-6m-ySY" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nOC-6m-ySY" customClass="BaseNavViewController" customModule="LYZZB_weex" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="我的" image="tabbar_mine_gray" selectedImage="tabbar_mine" id="yxj-Y1-95i"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="My8-bV-Pnc">

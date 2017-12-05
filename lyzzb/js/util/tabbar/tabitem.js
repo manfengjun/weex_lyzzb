@@ -50,14 +50,14 @@
 	var __vue_styles__ = []
 
 	/* styles */
-	__vue_styles__.push(__webpack_require__(71)
+	__vue_styles__.push(__webpack_require__(82)
 	)
 
 	/* script */
-	__vue_exports__ = __webpack_require__(72)
+	__vue_exports__ = __webpack_require__(83)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(73)
+	var __vue_template__ = __webpack_require__(84)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -69,10 +69,10 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/jun/weex_lyzzb/lyzzb/src/home/home.vue"
+	__vue_options__.__file = "/Users/jun/weex_lyzzb/lyzzb/src/util/tabbar/tabitem.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-2bbdfc56"
+	__vue_options__._scopeId = "data-v-c97b77aa"
 	__vue_options__.style = __vue_options__.style || {}
 	__vue_styles__.forEach(function (module) {
 	  for (var name in module) {
@@ -90,37 +90,61 @@
 
 /***/ }),
 
-/***/ 71:
+/***/ 82:
 /***/ (function(module, exports) {
 
 	module.exports = {
-	  "image": {
-	    "width": 700,
-	    "height": 700
+	  "container": {
+	    "flex": 1,
+	    "flexDirection": "column",
+	    "alignItems": "center",
+	    "justifyContent": "center",
+	    "height": 88
 	  },
-	  "slider": {
-	    "marginTop": 0,
-	    "marginLeft": 0,
-	    "width": 700,
-	    "height": 700
+	  "top-line": {
+	    "position": "absolute",
+	    "top": 0,
+	    "left": 0,
+	    "right": 0,
+	    "height": 2
 	  },
-	  "frame": {
-	    "width": 700,
-	    "height": 700,
-	    "position": "relative"
+	  "tab-icon": {
+	    "marginTop": 5,
+	    "width": 40,
+	    "height": 40
+	  },
+	  "tab-text": {
+	    "marginTop": 5,
+	    "textAlign": "center",
+	    "fontSize": 20
 	  }
 	}
 
 /***/ }),
 
-/***/ 72:
+/***/ 83:
 /***/ (function(module, exports) {
 
 	'use strict';
 
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 	//
 	//
 	//
@@ -148,38 +172,54 @@
 	//
 	//
 
-	exports.default = {
-	  data: function data() {
-	    return {
-	      imageList: [{ src: 'https://gd2.alicdn.com/bao/uploaded/i2/T14H1LFwBcXXXXXXXX_!!0-item_pic.jpg' }, { src: 'https://gd1.alicdn.com/bao/uploaded/i1/TB1PXJCJFXXXXciXFXXXXXXXXXX_!!0-item_pic.jpg' }, { src: 'https://gd3.alicdn.com/bao/uploaded/i3/TB1x6hYLXXXXXazXVXXXXXXXXXX_!!0-item_pic.jpg' }]
-	    };
+	module.exports = {
+	  props: {
+	    index: { default: 0 },
+	    title: { default: '' },
+	    titleColor: { default: '#000000' },
+	    icon: { default: '' },
+	    backgroundColor: { default: '#ffffff' }
+	  },
+	  methods: {
+	    onclickitem: function onclickitem(e) {
+	      var params = {
+	        index: this.index
+	      };
+	      this.$emit('tabItemOnClick', params);
+	    }
 	  }
 	};
-	module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 73:
+/***/ 84:
 /***/ (function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', [_c('slider', {
-	    staticClass: ["slider"],
-	    attrs: {
-	      "interval": "3000",
-	      "autoPlay": "true"
+	  return _c('div', {
+	    staticClass: ["container"],
+	    style: {
+	      backgroundColor: _vm.backgroundColor
+	    },
+	    on: {
+	      "click": _vm.onclickitem
 	    }
-	  }, _vm._l((_vm.imageList), function(img) {
-	    return _c('div', {
-	      staticClass: ["frame"]
-	    }, [_c('image', {
-	      staticClass: ["image"],
-	      attrs: {
-	        "resize": "cover",
-	        "src": img.src
-	      }
-	    })])
-	  }))])
+	  }, [_c('image', {
+	    staticClass: ["top-line"],
+	    attrs: {
+	      "src": "http://gtms03.alicdn.com/tps/i3/TB1mdsiMpXXXXXpXXXXNw4JIXXX-640-4.png"
+	    }
+	  }), _c('image', {
+	    staticClass: ["tab-icon"],
+	    attrs: {
+	      "src": _vm.icon
+	    }
+	  }), _c('text', {
+	    staticClass: ["tab-text"],
+	    style: {
+	      color: _vm.titleColor
+	    }
+	  }, [_vm._v(_vm._s(_vm.title))])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 
