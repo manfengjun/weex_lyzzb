@@ -1,19 +1,19 @@
 //
-//  HomeViewController.swift
+//  LoginViewController.swift
 //  LYZZB_weex
 //
-//  Created by jun on 2017/12/4.
+//  Created by jun on 2017/12/6.
 //  Copyright © 2017年 JUN. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: BaseViewController {
+class LoginViewController: UIViewController {
     var webViewModel: FJWebViewModel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path = "file://" + Bundle.main.bundlePath + "/js/index.js"
+        let path = "file://" + Bundle.main.bundlePath + "/js/login/login.js"
         let viewF = CGRect(x: 0, y: 64, width: SCREEN_WIDTH, height: SCREEN_HEIGHT - 64)
         webViewModel = FJWebViewModel(path: path, target: self, frame:viewF)
         // Do any additional setup after loading the view.
@@ -24,7 +24,7 @@ class HomeViewController: BaseViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+
     /*
     // MARK: - Navigation
 

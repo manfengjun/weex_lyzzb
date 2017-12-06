@@ -24,6 +24,7 @@
 		BFAB22F31FCD0F8F00155654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB22F11FCD0F8F00155654 /* LaunchScreen.storyboard */; };
 		BFAB22FE1FCD0F9000155654 /* LYZZB_weexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB22FD1FCD0F9000155654 /* LYZZB_weexTests.swift */; };
 		BFAB23091FCD0F9000155654 /* LYZZB_weexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB23081FCD0F9000155654 /* LYZZB_weexUITests.swift */; };
+		BFCBA2311FD7F13E005F5639 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCBA2301FD7F13E005F5639 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		BFAB23041FCD0F9000155654 /* LYZZB_weexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYZZB_weexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB23081FCD0F9000155654 /* LYZZB_weexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZZB_weexUITests.swift; sourceTree = "<group>"; };
 		BFAB230A1FCD0F9000155654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCBA2301FD7F13E005F5639 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E4922C23C6FFF1FF43EE560B /* libPods-LYZZB_weex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYZZB_weex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 		BF5143C71FCE41C600E02632 /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				BFCBA22F1FD7F115005F5639 /* LoginReg */,
 				BF03A0661FD53F11003F427B /* Main */,
 				BF03A0651FD53F0C003F427B /* Mine */,
 				BF03A0641FD53F01003F427B /* Home */,
@@ -259,6 +262,14 @@
 				BFAB230A1FCD0F9000155654 /* Info.plist */,
 			);
 			path = LYZZB_weexUITests;
+			sourceTree = "<group>";
+		};
+		BFCBA22F1FD7F115005F5639 /* LoginReg */ = {
+			isa = PBXGroup;
+			children = (
+				BFCBA2301FD7F13E005F5639 /* LoginViewController.swift */,
+			);
+			path = LoginReg;
 			sourceTree = "<group>";
 		};
 		D214895AA1FE72B8675D7A3B /* Pods */ = {
@@ -467,6 +478,7 @@
 				BF9A08A71FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m in Sources */,
 				BF03A06B1FD54752003F427B /* Common.swift in Sources */,
 				BFAB22EB1FCD0F8F00155654 /* ViewController.swift in Sources */,
+				BFCBA2311FD7F13E005F5639 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
