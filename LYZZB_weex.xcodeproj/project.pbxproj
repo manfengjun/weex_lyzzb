@@ -14,9 +14,9 @@
 		BF03A06F1FD54CAD003F427B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A06E1FD54CAD003F427B /* HomeViewController.swift */; };
 		BF03A0711FD54EA4003F427B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A0701FD54EA4003F427B /* BaseViewController.swift */; };
 		BF03A0731FD54EC6003F427B /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03A0721FD54EC6003F427B /* BaseNavViewController.swift */; };
+		BF2D19901FD7D50700D7AB17 /* js in Resources */ = {isa = PBXBuildFile; fileRef = BF2D198F1FD7D50700D7AB17 /* js */; };
 		BF5143CF1FCE421700E02632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5143CE1FCE421700E02632 /* AppDelegate.swift */; };
 		BF5143D61FCE432100E02632 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5143D51FCE432100E02632 /* DemoViewController.m */; };
-		BF5143DA1FCEAAE700E02632 /* lyzzb in Resources */ = {isa = PBXBuildFile; fileRef = BF5143D91FCEAAE700E02632 /* lyzzb */; };
 		BF9A08A71FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9A08A61FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m */; };
 		BFAB22EB1FCD0F8F00155654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB22EA1FCD0F8F00155654 /* ViewController.swift */; };
 		BFAB22EE1FCD0F8F00155654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB22EC1FCD0F8F00155654 /* Main.storyboard */; };
@@ -52,11 +52,11 @@
 		BF03A06E1FD54CAD003F427B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BF03A0701FD54EA4003F427B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BF03A0721FD54EC6003F427B /* BaseNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
+		BF2D198F1FD7D50700D7AB17 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
 		BF5143CE1FCE421700E02632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5143D01FCE423B00E02632 /* LYZZB_weex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYZZB_weex-Bridging-Header.h"; sourceTree = "<group>"; };
 		BF5143D41FCE432100E02632 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		BF5143D51FCE432100E02632 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
-		BF5143D91FCEAAE700E02632 /* lyzzb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lyzzb; sourceTree = "<group>"; };
 		BF9A08A51FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
 		BF9A08A61FD4ECAC0007AD5A /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
 		BFAB22E51FCD0F8F00155654 /* LYZZB_weex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYZZB_weex.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,7 +205,7 @@
 		BFAB22DC1FCD0F8F00155654 = {
 			isa = PBXGroup;
 			children = (
-				BF5143D91FCEAAE700E02632 /* lyzzb */,
+				BF2D198F1FD7D50700D7AB17 /* js */,
 				BF5143C91FCE41C700E02632 /* AppDelegate */,
 				BF5143C51FCE41C600E02632 /* Category */,
 				BF5143C61FCE41C600E02632 /* Resource */,
@@ -381,10 +381,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5143DA1FCEAAE700E02632 /* lyzzb in Resources */,
 				BFAB22F31FCD0F8F00155654 /* LaunchScreen.storyboard in Resources */,
 				BFAB22F01FCD0F8F00155654 /* Assets.xcassets in Resources */,
 				BFAB22EE1FCD0F8F00155654 /* Main.storyboard in Resources */,
+				BF2D19901FD7D50700D7AB17 /* js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
