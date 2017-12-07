@@ -25,6 +25,7 @@
 		BFAB22FE1FCD0F9000155654 /* LYZZB_weexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB22FD1FCD0F9000155654 /* LYZZB_weexTests.swift */; };
 		BFAB23091FCD0F9000155654 /* LYZZB_weexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB23081FCD0F9000155654 /* LYZZB_weexUITests.swift */; };
 		BFCBA2311FD7F13E005F5639 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCBA2301FD7F13E005F5639 /* LoginViewController.swift */; };
+		BFF006D81FD8DF9D007E849C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF006D71FD8DF9D007E849C /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		BFAB23081FCD0F9000155654 /* LYZZB_weexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYZZB_weexUITests.swift; sourceTree = "<group>"; };
 		BFAB230A1FCD0F9000155654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCBA2301FD7F13E005F5639 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BFF006D71FD8DF9D007E849C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		E4922C23C6FFF1FF43EE560B /* libPods-LYZZB_weex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYZZB_weex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -162,6 +164,7 @@
 		BF5143C61FCE41C600E02632 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				BFF006D71FD8DF9D007E849C /* logo.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAB22F31FCD0F8F00155654 /* LaunchScreen.storyboard in Resources */,
+				BFF006D81FD8DF9D007E849C /* logo.png in Resources */,
 				BFAB22F01FCD0F8F00155654 /* Assets.xcassets in Resources */,
 				BFAB22EE1FCD0F8F00155654 /* Main.storyboard in Resources */,
 				BF2D19901FD7D50700D7AB17 /* js in Resources */,

@@ -49,11 +49,15 @@
 	var __vue_exports__, __vue_options__
 	var __vue_styles__ = []
 
+	/* styles */
+	__vue_styles__.push(__webpack_require__(92)
+	)
+
 	/* script */
-	__vue_exports__ = __webpack_require__(92)
+	__vue_exports__ = __webpack_require__(93)
 
 	/* template */
-	var __vue_template__ = __webpack_require__(93)
+	var __vue_template__ = __webpack_require__(94)
 	__vue_options__ = __vue_exports__ = __vue_exports__ || {}
 	if (
 	  typeof __vue_exports__.default === "object" ||
@@ -68,6 +72,7 @@
 	__vue_options__.__file = "/Users/jun/lyzzb_html/src/login/login.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+	__vue_options__._scopeId = "data-v-4e7a12e2"
 	__vue_options__.style = __vue_options__.style || {}
 	__vue_styles__.forEach(function (module) {
 	  for (var name in module) {
@@ -88,6 +93,71 @@
 /***/ 92:
 /***/ (function(module, exports) {
 
+	module.exports = {
+	  "content": {
+	    "flexDirection": "column",
+	    "justifyContent": "center"
+	  },
+	  "image": {
+	    "top": 100,
+	    "left": 275,
+	    "width": 200,
+	    "height": 200
+	  },
+	  "panel": {
+	    "backgroundColor": "#fc0000",
+	    "marginTop": 40,
+	    "left": 40,
+	    "top": 120,
+	    "width": 670,
+	    "height": 80
+	  },
+	  "account": {
+	    "width": 670,
+	    "height": 40
+	  }
+	}
+
+/***/ }),
+
+/***/ 93:
+/***/ (function(module, exports) {
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 	//
 	//
 	//
@@ -98,17 +168,43 @@
 
 /***/ }),
 
-/***/ 93:
+/***/ 94:
 /***/ (function(module, exports) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _vm._m(0)
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {}, [_vm._v("\n  <"), _c('image', {
+	  return _c('div', {
+	    staticClass: ["content"]
+	  }, [_c('div', {
+	    staticClass: ["logo"]
+	  }, [_c('image', {
+	    staticClass: ["image"],
 	    attrs: {
 	      "src": "http://www.lyzzb.com/wap_themes/static/images/default/logo.png"
 	    }
-	  }), _vm._v(">\n")])
+	  })]), _c('div', {
+	    staticClass: ["panel"]
+	  }, [_c('text', {
+	    staticClass: ["account"],
+	    attrs: {
+	      "lines": "3"
+	    }
+	  }, [_vm._v("Weex is an")])]), _c('div', {
+	    staticClass: ["panel"]
+	  }, [_c('text', {
+	    staticClass: ["password"],
+	    attrs: {
+	      "lines": "3"
+	    }
+	  }, [_vm._v("Weex is an")])]), _c('div', {
+	    staticClass: ["panel"]
+	  }, [_c('text', {
+	    staticClass: ["submit"],
+	    attrs: {
+	      "lines": "3"
+	    }
+	  }, [_vm._v("Weex is an")])])])
 	}]}
 	module.exports.render._withStripped = true
 
